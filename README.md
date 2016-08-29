@@ -53,7 +53,7 @@ Run:
 ./moveExt2MasterTable.sh tsv 5
 </pre>
 
-Output will be the following master table with all the samples combined:
+Output will be the following master table with all the samples combined. The header will contain the sample or condition names (i.e. subfolder names) and row names are genes/transcripts (from column 1).
 
 <pre>
  071_2_E7_24h_TAG 071_2_E7_72h_TAG 071_2_E8_24h_TAG 071_2_E8_72h_TAG 334_1_E7_24h_TAG 334_1_E7_72h_TAG 334_1_E8_24h_TAG 334_1_E8_72h_TAG 756_3_E7_24h_TAG 756_3_E7_72h_TAG 756_3_E8_24h_TAG 756_3_E8_72h_TAG 835_1_E7_24h_TAG 835_1_E7_72h_TAG 835_1_E8_24h_TAG 835_1_E8_72h_TAG H1_E7_24h_TAG H1_E7_72h_TAG H1_E8_24h_TAG H1_E8_72h_TAG H7_E7_24h_TAG H7_E7_72h_TAG H7_E8_24h_TAG H7_E8_72h_TAG
